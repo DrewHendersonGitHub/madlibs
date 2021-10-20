@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>A fantastical adventure</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Halloween Mad Libs</h1>
+    <h3>Fill in the blanks to write your story!</h3>
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="noun">A noun</label>
+          <input id="noun" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="place">A place</label>
+          <input id="place" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="character">Character</label>
+          <input id="character" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="adjective">Adjective</label>
+          <input id="adjective" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="body-part">Body Part</label>
+          <input id="body-part" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="verb">Verb</label>
+          <input id="verb" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="food">Food</label>
+          <input id="food" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="plural-noun">Plural Noun</label>
+          <input id="plural-noun" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn">Show me the story!</button>
+      </form>
+    </div>
+
+    <div id="story">
+      <h1>A fantastical adventure</h1>
+      <p>
+        I can't believe that it's already halloween! I can't wait to put on my <span class="noun"></span> and visit every <span class="place"></span> in my neighborhood. This year I am going to dress up as a <span class="character"></span> with <span class="adjective"></span> <span class="body-part"></span>. Before I <span class="verb"></span>, I make sure to grab all my <span class="adjective"></span> <span class="noun"></span> to hold all my <span class="food"></span>. Finally, all my <span class="plural-noun"></span> are ready to go!
+      </p>
+    </div>
+  </div>
+</body>
+</html>
